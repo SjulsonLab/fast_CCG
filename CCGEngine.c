@@ -1,7 +1,5 @@
-/* CCGEngine.c /*
-
-/* This is a bare-bones C program whos purpose is to compute
-   Multi-unit cross correlograms quickly.  Not intended for
+/* This is a bare-bones C program whose purpose is to compute
+   multi-unit cross correlograms quickly.  Not intended for
    use on its own.  It is designed to be wrapped by a Python
    function.
    
