@@ -3,7 +3,7 @@ This is a Python program for calculating cross-correlograms quickly using compil
 
 To compile it on Linux or MacOS, use:
 
-gcc -shared -o libCCGEngine.so CCGEngine.c
+gcc -shared -Ofast -o libCCGEngine.so CCGEngine.c
 
 I used GPT4 to translate the original CCGHeart code from MATLAB/mex to Python/ctypes.
 The C code runs, and I think the output is correct, but I haven't tested it. The 
